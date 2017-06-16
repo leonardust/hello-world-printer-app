@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f495b50c-8b60-4fab-9fe2-832bdd9df177" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.coverage" afterPath="$PROJECT_DIR$/.coverage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hello-world-printer-app.iml" afterPath="$PROJECT_DIR$/.idea/hello-world-printer-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage.xml" afterPath="$PROJECT_DIR$/coverage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello_world/__init__.py" afterPath="$PROJECT_DIR$/hello_world/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello_world/views.py" afterPath="$PROJECT_DIR$/hello_world/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_results.xml" afterPath="$PROJECT_DIR$/test_results.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +14,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -31,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello_world/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -245,13 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Makefile.docker_build">
-    <configuration default="false" name="test_run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="test_run">
-        <envs />
-      </makefile>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Makefile.lint">
     <configuration default="false" name="test_cov" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="test_cov">
         <envs />
@@ -272,6 +259,12 @@
     </configuration>
     <configuration default="false" name="docker_build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="docker_build">
+        <envs />
+      </makefile>
+      <method />
+    </configuration>
+    <configuration default="false" name="lint" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="lint">
         <envs />
       </makefile>
       <method />
@@ -375,19 +368,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Makefile.test_run" />
-      <item index="1" class="java.lang.String" itemvalue="Makefile.test_cov" />
-      <item index="2" class="java.lang.String" itemvalue="Makefile.deps" />
-      <item index="3" class="java.lang.String" itemvalue="Makefile.test_xunit" />
-      <item index="4" class="java.lang.String" itemvalue="Makefile.docker_build" />
+      <item index="0" class="java.lang.String" itemvalue="Makefile.test_cov" />
+      <item index="1" class="java.lang.String" itemvalue="Makefile.deps" />
+      <item index="2" class="java.lang.String" itemvalue="Makefile.test_xunit" />
+      <item index="3" class="java.lang.String" itemvalue="Makefile.docker_build" />
+      <item index="4" class="java.lang.String" itemvalue="Makefile.lint" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Makefile.docker_build" />
-        <item index="1" class="java.lang.String" itemvalue="Makefile.test_xunit" />
-        <item index="2" class="java.lang.String" itemvalue="Makefile.deps" />
-        <item index="3" class="java.lang.String" itemvalue="Makefile.test_cov" />
-        <item index="4" class="java.lang.String" itemvalue="Makefile.test_run" />
+        <item index="0" class="java.lang.String" itemvalue="Makefile.lint" />
+        <item index="1" class="java.lang.String" itemvalue="Makefile.docker_build" />
+        <item index="2" class="java.lang.String" itemvalue="Makefile.test_xunit" />
+        <item index="3" class="java.lang.String" itemvalue="Makefile.deps" />
+        <item index="4" class="java.lang.String" itemvalue="Makefile.test_cov" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +472,7 @@
   <component name="ToolWindowManager">
     <frame x="156" y="24" width="927" height="744" extended-state="4" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2286947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2286947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32605305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -858,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -878,6 +863,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_world/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
